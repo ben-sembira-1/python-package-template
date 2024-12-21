@@ -1,5 +1,5 @@
 # Base image with Ubuntu LTS
-FROM python:3.13
+FROM python:3.10
 
 # Prevent timezone prompts during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	curl \
 	wget \
+	less \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
 
