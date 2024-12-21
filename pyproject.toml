@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 where = ["src"]
 
 [project]
-name = "python-package-template"
+name = "ben-sembira-python-package-template"
 dynamic = ["version"]
 authors = [
   { name="Ben Sembira", email="ben.sembira.dev@gmail.com" },
