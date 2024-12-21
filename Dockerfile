@@ -35,7 +35,7 @@ RUN chown developer:root /workspace
 EXPOSE 22
 
 USER developer
-RUN pip3 install --no-cache-dir pytest
+RUN pip3 install --no-cache-dir pre-commit
 
 # Start SSH server
 CMD ["/usr/sbin/sshd", "-D"]
