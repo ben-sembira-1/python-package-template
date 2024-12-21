@@ -14,7 +14,21 @@
 				"ms-python.python",
 				"ms-azuretools.vscode-docker",
 				"github.vscode-github-actions",
-				"ms-python.black-formatter"
+				"ms-python.black-formatter",
+				"DavidAnson.vscode-markdownlint",
+				"streetsidesoftware.code-spell-checker",
+				"naumovs.color-highlight",
+				"eamodio.gitlens",
+				"streetsidesoftware.code-spell-checker-hebrew",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"VisualStudioExptTeam.vscodeintellicode-completions",
+				"ms-python.isort",
+				"bierner.markdown-mermaid",
+				"shardulm94.trailing-spaces",
+				"wayou.vscode-todo-highlight",
+				"rafamel.subtle-brackets",
+				"kisstkondoros.vscode-gutter-preview"
 			]
 		}
 	}
