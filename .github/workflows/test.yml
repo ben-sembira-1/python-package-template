@@ -2,15 +2,7 @@ name: Lint and Test
 on: push
 
 jobs:
-  pre-commit:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-      - name: Install package
-        run: pip install .[dev]
-      - uses: pre-commit/action@v3.0.0
-  pytest:
+  pre-commit_and_pytest:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
@@ -19,5 +11,6 @@ jobs:
           python-version: '3.10'
       - name: Install package
         run: pip install .[dev]
+      - uses: pre-commit/action@v3.0.0
       - name: Run pytest
-        run: python3 -m pytest
+        run: pytest
